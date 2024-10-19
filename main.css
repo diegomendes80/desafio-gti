@@ -208,6 +208,8 @@ main{
         /* margin: 0 auto;  */
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         row-gap: 2rem;
 }
 
@@ -238,6 +240,7 @@ main{
 
 .review__comentario > img{
     width: 10vw;
+    min-width: 100px;
 }
 
 @media (min-width: 1000px){
@@ -250,16 +253,19 @@ main{
 
     .content__reviews{
         width: 65vw;
+        /* background-color: aqua; */
     
     }
 
     .reviews__review{
         flex-direction: row;
-        column-gap: 4rem;
+        column-gap: 2rem;
     }
 
-.review__user{
-    max-width: 100px;   
+    .review__user{
+        width: 10vw;
+        /* max-width: 100px;    */
+        /* background-color: blue; */
 
 }
 

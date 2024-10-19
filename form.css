@@ -1,0 +1,160 @@
+@import 'style.css';
+
+
+.conteudo__inscricao{
+    background-color: rgb(222, 222, 222);
+    padding: 2rem 0 ;
+
+ 
+}
+
+.inscricao__form{
+    background-color: var(--branco);
+    width: 90vw;
+    margin: 0 auto; 
+    padding: 1rem;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.form__cabecalho{
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.form__cabecalho > .cabecalho__texto{
+    font-size: 14px;
+}
+
+.form__cabecalho > .cabecalho__title{
+    font-size: 30px;
+    color: var(--preto);
+}
+
+.form__informacoes{
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+}
+
+.informacoes__cabecalho{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.informacoes__cabecalho > h3{
+    font-weight: 500;
+    color: var(--azul-principal)
+}
+
+.form__informacoes div {
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 1.5rem; */
+}
+
+.label-input{
+    margin-bottom: 1rem;
+}
+
+label,
+.interesses__title,
+.sobre__title{
+    font-weight: 600;
+}
+
+.interesses__opcao{
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+input{
+    padding: .5rem .2rem;
+    max-width: 500px;
+    border-radius: 5px;
+
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"]{
+    width: 100%;
+    padding-left: .8rem;
+}
+
+
+textarea{
+    min-height: 150px;
+    max-height: 300px;
+    height: 50vw;
+    padding: 1rem ;
+}
+
+.form__button{
+    
+    font-size: 18px;
+    margin: 1.5rem auto;
+    border-radius: 20px;
+    border: none;
+    color: var(--branco);
+    background-color: var(--azul-secundario);
+    font-weight: 600;
+    width: 20vw;
+    min-width: 150px;
+    /* max-width: 300px; */
+    height: 40px;
+
+
+}
+
+.form__button:hover{
+    cursor: pointer;
+    color: var(--preto);
+    background-color: var(--azul-principal);
+
+}
+
+
+@media (min-width: 1000px){
+
+
+
+    .inscricao__form{
+        width: 45vw;
+        padding: 3rem;
+
+    }
+
+    .form__cabecalho{
+        width: 30vw;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+
+
+
+    .form__informacoes div:nth-child(2),
+    .form__informacoes div:nth-child(3),
+    .form__informacoes div:nth-child(4){
+        flex-direction: row;
+        align-items: center;
+        column-gap: 1.5rem;
+
+    }
+
+    
+    .div-input > label{
+        width: 60px;
+        margin-bottom: 0;
+    }
+
+
+}

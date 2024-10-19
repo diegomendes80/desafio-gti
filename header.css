@@ -100,7 +100,8 @@ body{
 }
 
 .informacoes__botao{
-
+    
+    margin-top: 1rem;
     border-radius: 20px;
     border: none;
     background-color: var(--branco);
@@ -109,7 +110,6 @@ body{
     width: 150px;
     height: 40px;
 
-    margin-top: 1rem;
 }
 
 .informacoes__botao:hover{

@@ -1,0 +1,50 @@
+@import 'style.css';
+
+
+.rodape{
+    background-color: var(--azul-principal);
+    color: var(--preto);
+    padding: 1.5rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+
+.contato__title{
+    font-size: 18px;
+}
+
+.links__link a{
+    color: var(--preto);
+    font-size: 14px;
+}
+
+.action__perguntas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+}
+
+.action__perguntas a{
+    color: var(--preto);
+    font-size: 14px;
+}
+
+.perguntas__title{
+    font-size: 18px;
+
+}
+
+
+@media (min-width:1000px){
+    .rodape{
+        flex-direction: row;
+        column-gap: 5rem;
+    }
+}
