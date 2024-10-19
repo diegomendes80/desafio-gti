@@ -1,0 +1,22 @@
+:root{
+    --fonte: 'Poppins';
+    --branco: white;
+    --azul-principal: #00A7E1;
+    --azul-secundario: #003459;
+    --azul-terciario: #007EA7;
+    --preto: #00171F;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+body{
+    overflow-x: hidden;
+}
